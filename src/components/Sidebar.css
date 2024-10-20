@@ -1,0 +1,135 @@
+/* General Sidebar Styling */
+.sidebar {
+    width: 300px;
+    background-color: #eceff1;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .test {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .sidebar h2 {
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 12px;
+  }
+  
+  .new-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .text {
+    padding: 0px;
+  }
+  
+  li .text {
+    font-size: 10px;
+    color: #333;
+  }
+  
+  .show-all {
+    display: block;
+    font-size: 10px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .section-contacts {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .followers {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .section {
+      margin-bottom: 20px;
+    }
+  
+    .new-button {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .followers {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sidebar {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .sidebar h2,
+    li .text,
+    .new-button,
+    .show-all {
+      font-size: 14px;
+    }
+  
+    .new-button {
+      padding: 5px;
+      font-size: 12px;
+    }
+  
+    .show-all {
+      font-size: 12px;
+    }
+  
+    .section-contacts {
+      display: none; 
+    }
+  
+    .followers {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

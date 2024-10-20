@@ -1,0 +1,138 @@
+
+.right-sidebar {
+    width: 500px;
+    background-color: #eceff1;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  .right-sidebar h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .right-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .right-sidebar ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .right-sidebar ul li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+   
+
+
+
+
+  .right-sidebar ul li .text {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .right-sidebar .show-all {
+    display: block;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+
+  .progress-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .progress-item span {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .buttonlol {
+    display: inline;
+    background-color: #007bff;
+    color: #fff;
+    height: 15px;
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+
+  
+  @media (max-width: 768px) {
+    .right-sidebar {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .right-sidebar h2 {
+      font-size: 16px;
+    }
+  
+    .right-sidebar ul li .text {
+      font-size: 12px;
+    }
+  
+    .right-sidebar .show-all {
+      font-size: 12px;
+    }
+  
+    .progress-item span {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .right-sidebar {
+      padding: 5px;
+    }
+  
+    .right-sidebar h2 {
+      font-size: 14px;
+    }
+  
+    .right-sidebar ul li .text {
+      font-size: 10px;
+    }
+  
+    .right-sidebar .show-all {
+      font-size: 10px;
+    }
+  
+    .progress-item span {
+      font-size: 10px;
+    }
+  }
+  

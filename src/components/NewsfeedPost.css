@@ -1,0 +1,261 @@
+.newsfeed-post {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .newsfeed-header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .newsfeed-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .post-section {
+    padding: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile {
+    width: 50px;
+    height: 50px;
+    margin-top: -40px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .text-info p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .text-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .update-text {
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .expand-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .small-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .expand-story {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
+  }
+  
+  .footer-text {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .footer-text span {
+    font-size: 12px;
+    color: #666;
+    margin-left: 10px;
+  }
+  
+  .post-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .comment-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .comment-box input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 500px;
+  }
+  
+  .post-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-button:hover {
+    background-color: #c82333;
+  }
+  
+  .profilecomment {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .newsfeed-post {
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .newsfeed-header h2 {
+      font-size: 18px;
+    }
+  
+    .post-section {
+      padding: 15px;
+    }
+  
+    .user-info {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .profile {
+      width: 40px;
+      height: 40px;
+      margin-top: 0;
+    }
+  
+    .expand-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .small-icon {
+      position: relative;
+      left: 0;
+      top: 0;
+      transform: none;
+      margin-bottom: 10px;
+    }
+  
+    .expand-story {
+      margin: 10px 0;
+      top: 0;
+    }
+  
+    .footer-text {
+      position: relative;
+      right: 0;
+      top: 0;
+      transform: none;
+      margin-left: 0;
+    }
+  
+    .footer-text span {
+      margin-left: 0;
+    }
+  
+    .comment-box input {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .newsfeed-post {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .newsfeed-header h2 {
+      font-size: 16px;
+    }
+  
+    .post-section {
+      padding: 10px;
+    }
+  
+    .user-info {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .profile {
+      width: 30px;
+      height: 30px;
+      margin-top: 0;
+    }
+  
+    .expand-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .small-icon {
+      position: relative;
+      left: 0;
+      top: 0;
+      transform: none;
+      margin-bottom: 10px;
+    }
+  
+    .expand-story {
+      margin: 10px 0;
+      top: 0;
+    }
+  
+    .footer-text {
+      position: relative;
+      right: 0;
+      top: 0;
+      transform: none;
+      margin-left: 0;
+    }
+  
+    .footer-text span {
+      font-size: 10px;
+      margin-left: 5px;
+    }
+  
+    .comment-box input {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,77 @@
+.task-section {
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .task-section h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .task-section input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+  }
+  
+  .save-task-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .save-task-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-section ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-section ul li img.settings-icon {
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .task-section .blue {
+    background-color: white;
+    border: 1px solid #007bff;
+  }
+  
+  .task-section .green {
+    background-color: white;
+    border: 1px solid #00c853;
+  }
+  
+  .task-section .orange {
+    background-color: white;
+    border: 1px solid #ff6d00;
+  }
+  
+  .task-section .purple {
+    background-color: white;
+    border: 1px solid #ab47bc;
+  }
+  
+  .task-section .text {
+    font-size: 14px;
+    color: #333;
+    margin-left: 10px;
+  }
+  
